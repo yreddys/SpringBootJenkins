@@ -28,7 +28,7 @@ pipeline {
                 )
             }
         }
-        stage('Build-Maven'){
+        stage('BuildMaven'){
             when {
 				expression { params.action == 'create' }
 			}
