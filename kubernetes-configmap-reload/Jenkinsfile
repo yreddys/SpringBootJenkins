@@ -21,8 +21,9 @@ pipeline {
 			}
             steps {
                 gitCheckout(
-			url: "https://github.com/yreddys/Hjen.git"
+			
                     branch: "main",
+		  url: "https://github.com/yreddys/Hjen.git"
                     
                 )
             }
