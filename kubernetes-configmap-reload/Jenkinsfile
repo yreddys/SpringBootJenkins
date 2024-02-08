@@ -73,7 +73,7 @@ pipeline {
 	            sh 'kubectl create -f ${WORKSPACE}/kubernetes-configmap-reload/kubernetes-configmap.yml'
 	        }
 	    }
-	    stage ("wait_for_pods"){
+	    stage ("wait for_pods"){
 	    steps{
               
                 sh 'sleep 300'
