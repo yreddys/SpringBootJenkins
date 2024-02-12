@@ -15,7 +15,7 @@ pipeline {
         maven 'maven3'
     }
     stages {
-        stage('GitCheckout') {
+        stage('Git-Checkout') {
             when {
 				expression { params.action == 'create' }
 			}
