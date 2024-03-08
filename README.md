@@ -1,4 +1,4 @@
-** The goal you specified requires a project to execute but there is no POM in this directory**
+**The goal you specified requires a project to execute but there is no POM in this directory**
 
 
 
